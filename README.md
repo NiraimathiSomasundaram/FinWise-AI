@@ -60,59 +60,45 @@ The application provides a guided risk assessment, automatically classifies inve
 
 
 
-\### Replace it with this:
-
-
-
-```markdown
-
 \## 🧠 How FinWise AI Works
 
 
 
-```text
+```mermaid
 
-User Information
+flowchart TD
 
-&#x20;       │
 
-&#x20;       ▼
 
-Risk Assessment
+&#x20;   A\[👤 User Information]
 
-&#x20;       │
+&#x20;   B\[🧠 Risk Assessment]
 
-&#x20;       ▼
+&#x20;   C\[📊 Risk Score Calculation]
 
-Risk Score Calculation
+&#x20;   D\[🎯 Investor Profile Classification]
 
-&#x20;       │
+&#x20;   E\[📈 Historical Market Data Collection]
 
-&#x20;       ▼
+&#x20;   F\[⚙️ Portfolio Optimization]
 
-Investor Profile Classification
+&#x20;   G\[💼 Personalized Asset Allocation]
 
-&#x20;       │
+&#x20;   H\[📊 Portfolio Performance Metrics]
 
-&#x20;       ▼
 
-Historical Market Data Collection
 
-&#x20;       │
+&#x20;   A --> B
 
-&#x20;       ▼
+&#x20;   B --> C
 
-Portfolio Optimization
+&#x20;   C --> D
 
-&#x20;       │
+&#x20;   D --> E
 
-&#x20;       ▼
+&#x20;   E --> F
 
-Personalized Asset Allocation
+&#x20;   F --> G
 
-&#x20;       │
-
-&#x20;       ▼
-
-Portfolio Performance Metrics
+&#x20;   G --> H
 
