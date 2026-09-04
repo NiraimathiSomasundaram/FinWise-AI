@@ -6,15 +6,11 @@
 
 
 
-<p align="center">
+FinWise AI is an interactive portfolio recommendation system that analyzes an investor's risk preferences and generates a personalized investment portfolio using historical market data and portfolio optimization techniques.
 
-&#x20; An interactive risk-based portfolio recommendation system that analyzes investor preferences
 
-&#x20; and generates personalized asset allocations using historical market data and
 
-&#x20; Modern Portfolio Theory.
-
-</p>
+The application provides a guided risk assessment, automatically classifies investors based on their risk tolerance, and recommends an optimized asset allocation with portfolio performance metrics.
 
 
 
@@ -22,61 +18,39 @@
 
 
 
-\## 🚀 Overview
+\## 🚀 Features
 
 
 
-\*\*FinWise AI\*\* is a Python-based portfolio recommendation application designed to help users understand their investment risk profile and generate a diversified portfolio accordingly.
-
-
-
-The application guides users through an interactive risk assessment, classifies them into an investor profile, and generates an optimized portfolio using historical ETF market data.
-
-
-
-The system provides a professional dashboard with portfolio allocation, performance metrics, and asset-class analysis.
-
-
-
-\---
-
-
-
-\## ✨ Key Features
-
-
+\- 🔐 Personalized user experience
 
 \- 🧠 Interactive risk assessment
 
-\- 🎯 Questions presented one at a time
+\- 📋 Questions presented one at a time
 
-\- 📊 Automatic risk score calculation
+\- 🎯 Automatic investor risk scoring
 
-\- 👤 Personalized investor profile
+\- 🟢 Conservative investor profile
 
-\- 🟢 Conservative portfolio strategy
+\- 🟡 Moderate investor profile
 
-\- 🟡 Moderate portfolio strategy
-
-\- 🔴 Aggressive portfolio strategy
+\- 🔴 Aggressive investor profile
 
 \- 📈 Historical market data analysis
 
-\- 💼 Personalized portfolio generation
+\- ⚙️ Portfolio optimization
 
-\- ⚖️ Portfolio optimization using the Efficient Frontier
+\- 💼 Personalized asset allocation
 
-\- 📊 Asset allocation visualization
+\- 📊 Portfolio performance metrics
 
-\- 📉 Expected annual return estimation
+\- 📉 Expected annual return calculation
 
-\- ⚡ Annual volatility calculation
+\- 📊 Portfolio volatility calculation
 
-\- 📐 Sharpe ratio analysis
+\- ⚖️ Sharpe ratio calculation
 
-\- 🏦 Asset-class allocation breakdown
-
-\- 🖥️ Interactive Streamlit dashboard
+\- 🔄 Start a new assessment option
 
 
 
@@ -88,43 +62,21 @@ The system provides a professional dashboard with portfolio allocation, performa
 
 
 
-```text
+```mermaid
 
-User Information
+flowchart TD
 
-&#x20;      │
+&#x20;   A\[👤 User Information] --> B\[🧠 Risk Assessment]
 
-&#x20;      ▼
+&#x20;   B --> C\[📊 Risk Score Calculation]
 
-Risk Assessment
+&#x20;   C --> D\[🎯 Investor Profile Classification]
 
-&#x20;      │
+&#x20;   D --> E\[📈 Historical Market Data Collection]
 
-&#x20;      ▼
+&#x20;   E --> F\[⚙️ Portfolio Optimization]
 
-Risk Score Calculation
+&#x20;   F --> G\[💼 Personalized Asset Allocation]
 
-&#x20;      │
-
-&#x20;      ▼
-
-Investor Profile Classification
-
-&#x20;      │
-
-&#x20;      ▼
-
-Historical Market Data Collection
-
-&#x20;      │
-
-&#x20;      ▼
-
-Portfolio Optimization
-
-&#x20;      │
-
-&#x20;      ▼
-
-Personalized Investment Portfolio
+&#x20;   G --> H\[📊 Portfolio Performance Metrics]
 
