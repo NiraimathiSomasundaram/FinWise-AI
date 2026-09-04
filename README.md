@@ -6,11 +6,15 @@
 
 
 
-FinWise AI is an interactive portfolio recommendation system that analyzes an investor's risk preferences and generates a personalized investment portfolio using historical market data and portfolio optimization techniques.
+<p align="center">
 
+&#x20; An interactive risk-based portfolio recommendation system that analyzes investor preferences
 
+&#x20; and generates personalized asset allocations using historical market data and
 
-The application provides a professional dashboard where users complete a risk assessment, receive an investor profile, and get an optimized asset allocation along with key portfolio performance metrics.
+&#x20; Modern Portfolio Theory.
+
+</p>
 
 
 
@@ -18,79 +22,61 @@ The application provides a professional dashboard where users complete a risk as
 
 
 
-\## 🚀 Features
+\## 🚀 Overview
 
 
 
-\- 🔐 Personalized user experience
+\*\*FinWise AI\*\* is a Python-based portfolio recommendation application designed to help users understand their investment risk profile and generate a diversified portfolio accordingly.
+
+
+
+The application guides users through an interactive risk assessment, classifies them into an investor profile, and generates an optimized portfolio using historical ETF market data.
+
+
+
+The system provides a professional dashboard with portfolio allocation, performance metrics, and asset-class analysis.
+
+
+
+\---
+
+
+
+\## ✨ Key Features
+
+
 
 \- 🧠 Interactive risk assessment
 
-\- 📊 Questions presented one at a time
+\- 🎯 Questions presented one at a time
 
-\- 🎯 Automatic investor risk scoring
+\- 📊 Automatic risk score calculation
 
-\- 🟢 Conservative investor profile
+\- 👤 Personalized investor profile
 
-\- 🟡 Moderate investor profile
+\- 🟢 Conservative portfolio strategy
 
-\- 🔴 Aggressive investor profile
+\- 🟡 Moderate portfolio strategy
 
-\- 📈 Portfolio optimization using historical market data
+\- 🔴 Aggressive portfolio strategy
 
-\- 💼 Personalized asset allocation
+\- 📈 Historical market data analysis
 
-\- 📊 Portfolio performance visualization
+\- 💼 Personalized portfolio generation
 
-\- 📉 Expected annual return calculation
+\- ⚖️ Portfolio optimization using the Efficient Frontier
+
+\- 📊 Asset allocation visualization
+
+\- 📉 Expected annual return estimation
 
 \- ⚡ Annual volatility calculation
 
-\- 📐 Sharpe ratio calculation
+\- 📐 Sharpe ratio analysis
 
-\- 🏦 Asset class allocation analysis
+\- 🏦 Asset-class allocation breakdown
 
-\- 🖥️ Professional Streamlit dashboard
-
-
-
-\---
-
-
-
-\## 🧠 How It Works
-
-
-
-The FinWise AI system follows this workflow:
-
-
-
-User Information  
-
-↓  
-
-Risk Assessment  
-
-↓  
-
-Risk Score Calculation  
-
-↓  
-
-Investor Profile Classification  
-
-↓  
-
-Historical Market Data Collection  
-
-↓  
-
-Portfolio Optimization  
-
-↓  
-
-Personalized Investment Recommendation
+\- 🖥️ Interactive Streamlit dashboard
 
 
 
@@ -98,207 +84,47 @@ Personalized Investment Recommendation
 
 
 
-\## 📊 Investor Profiles
-
-
-
-\### 🟢 Conservative
-
-
-
-Designed for investors who prioritize capital preservation and lower volatility.
-
-
-
-Typical allocation includes:
-
-
-
-\- Higher bond exposure
-
-\- Lower equity exposure
-
-\- Alternative assets such as gold
-
-
-
-\---
-
-
-
-\### 🟡 Moderate
-
-
-
-Designed for investors looking for a balance between growth and stability.
-
-
-
-Typical allocation includes:
-
-
-
-\- Balanced equity exposure
-
-\- Moderate bond allocation
-
-\- Diversification through alternative assets
-
-
-
-\---
-
-
-
-\### 🔴 Aggressive
-
-
-
-Designed for investors focused on long-term growth and willing to accept higher risk.
-
-
-
-Typical allocation includes:
-
-
-
-\- Higher equity exposure
-
-\- Growth-focused ETFs
-
-\- Lower bond allocation
-
-
-
-\---
-
-
-
-\## 💼 Portfolio Assets
-
-
-
-FinWise AI uses diversified ETFs across multiple asset classes.
-
-
-
-\### Equities
-
-
-
-\- VTI — Total US Stock Market
-
-\- SPY — S\&P 500
-
-\- VXUS — International Stocks
-
-\- XLV — Healthcare Sector
-
-\- VNQ — Real Estate
-
-\- QQQ — Technology and Growth
-
-\- XLF — Financial Sector
-
-\- XLE — Energy Sector
-
-
-
-\### Bonds
-
-
-
-\- AGG — Aggregate Bond Market
-
-\- TLT — Long-Term Treasury Bonds
-
-
-
-\### Alternatives
-
-
-
-\- GLD — Gold
-
-
-
-\---
-
-
-
-\## 🛠️ Technologies Used
-
-
-
-\- Python
-
-\- Streamlit
-
-\- Pandas
-
-\- NumPy
-
-\- yFinance
-
-\- PyPortfolioOpt
-
-
-
-\---
-
-
-
-\## 📈 Portfolio Optimization
-
-
-
-The portfolio is generated using:
-
-
-
-\- Historical market prices
-
-\- Expected return estimation
-
-\- Covariance matrix calculation
-
-\- Efficient Frontier optimization
-
-\- Sharpe ratio maximization
-
-\- Risk-based portfolio constraints
-
-
-
-The optimization process adjusts asset allocation based on the user's investor profile.
-
-
-
-\---
-
-
-
-\## 📂 Project Structure
+\# 🧠 How FinWise AI Works
 
 
 
 ```text
 
-FinWise-AI/
+User Information
 
-│
+&#x20;      │
 
-├── app.py
+&#x20;      ▼
 
-├── main.py
+Risk Assessment
 
-├── risk\_assessment.py
+&#x20;      │
 
-├── portfolio\_optimizer.py
+&#x20;      ▼
 
-├── requirements.txt
+Risk Score Calculation
 
-├── README.md
+&#x20;      │
 
-└── .gitignore
+&#x20;      ▼
+
+Investor Profile Classification
+
+&#x20;      │
+
+&#x20;      ▼
+
+Historical Market Data Collection
+
+&#x20;      │
+
+&#x20;      ▼
+
+Portfolio Optimization
+
+&#x20;      │
+
+&#x20;      ▼
+
+Personalized Investment Portfolio
 
